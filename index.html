@@ -7,7 +7,6 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 
 </head>
 <body>
@@ -20,29 +19,31 @@
 
             <div class="row">
 
-                <div class="col-lq-8 col-sm-12">
+                <div class="col-lq-8 col-sm-12 mx-auto">
                     <h4>Random Password Generator</h4>
                     <br />
                     <input type="text" id="display">
                     <br />
                     <input type="range" min="0" max="50" id="slider">
                     <br />
-                    <button onclick="">Generate</button>
-                    <button onclick="">Copy to Clipboard</button>
+                    <button onclick="generate()">Generate</button>
+                    <button onclick="copyPassword()">Copy to Clipboard</button>
                     <div id="length"></div> 
                 </div>
 
                 <div class="previous_passwords">
-                    <b></b>
-
-
-
+                    <b>Previously Generated Passwords</b>
+                    <br />
+                    <div id="lastPasswords">
+                        
+                    </div>
                 </div>
 
             </div>
 
     </div>
 
+    <script src="script.js"></script>
 
 </body>
 </html>
