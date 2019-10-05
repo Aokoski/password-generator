@@ -1,3 +1,7 @@
+alert("Welcome to the Password Generator, use the slider to set password length")
+
+
+
 //generate random password
 function generate(){
 

@@ -1,2 +1,2 @@
 # password-generator
-random password generator
+This is a random password generator that allows the user to determine password length with a slider, then copy the generated passwords to their clipboard. I thought the slider option was more appealing/simpler than having the user respond to various prompts. No installation necessary. Just select a length and hit the generate button. Styled with CSS with Bootsrap navbar and card display. 
